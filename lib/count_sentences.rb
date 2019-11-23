@@ -28,6 +28,6 @@ class String
   end
 
   def count_sentences
-    return self.split(',','.','?','!').count
+    return self.split(',','.','?','!').squeeze.count
   end
 end
