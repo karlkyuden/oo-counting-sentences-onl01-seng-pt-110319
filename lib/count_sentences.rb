@@ -4,9 +4,9 @@ class String
 
   def sentence?(sentence)
     if sentence.end_with?(".") == true
-      return true
+      true
     else
-      return false
+      false
     end
   end
 
