@@ -2,11 +2,11 @@ require 'pry'
 
 class String
 
-  def sentence?(stringSentence)
-    if stringSentence.end_with?(".") == true
-      true
+  def sentence?(words)
+    if words.end_with?(".") == true
+      return true
     else
-      false
+      return false
     end
   end
 
