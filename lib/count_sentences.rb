@@ -6,7 +6,7 @@ class String
     if sentence.end_with?(".") == true
       return true
     else
-      return FALSE
+      return false
     end
   end
 
