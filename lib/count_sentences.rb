@@ -28,6 +28,6 @@ class String
   end
 
   def count_sentences
-    puts self.split(/[.?!]/).count
+    return self.split(/[.?!]/).count
   end
 end
