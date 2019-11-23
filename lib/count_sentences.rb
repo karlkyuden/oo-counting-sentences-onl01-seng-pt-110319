@@ -4,8 +4,10 @@ class String
 
   def sentence?(words)
     if words.end_with?(".")
+      puts "hello it's true"
       return true
     else
+      puts "nope"
       return false
     end
   end
